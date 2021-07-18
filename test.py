@@ -1,2 +1,5 @@
-foo = "Hello World"
-print(f"문자열 출력 >> {foo}")
+def sum_and_mul(a, b):
+    return a+b, a*b
+
+result1, result2 = sum_and_mul(10, 20)
+print(result2)
