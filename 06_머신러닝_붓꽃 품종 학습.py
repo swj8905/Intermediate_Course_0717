@@ -26,3 +26,7 @@ print(score)
 # ])
 #
 # print(result)
+
+import joblib
+
+joblib.dump(model, "model.pkl")
